@@ -87,7 +87,7 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
-// console.log ("Finance Analysis")
+console.log ("Finance Analysis")
   
 // Counts Total Number of Months
 
