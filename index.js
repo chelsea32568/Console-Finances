@@ -86,3 +86,18 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+  
+// Counts Total Number of Months
+
+for (var i = 0; i < finances.length; i++ ) {
+  var months = finances [i][0]
+}
+console.log ("Total Months: " + months.length)
+
+// Not total amount of Profit/Losees
+
+for (var i = 0; i < finances.length; i++ ) {
+  var total = finances [i][1]
+}
+
+console.log ("Total " + total)
