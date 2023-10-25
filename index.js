@@ -88,20 +88,19 @@ var finances = [
 ];
 
 console.log ("Finance Analysis")
-  
+
 // Counts Total Number of Months
 
-for (var i = 0; i < finances.length; i++ ) {
-  var months = finances [i][0]
-}
-console.log ("Total Months: " + months.length)
+// for (var i = 0; i < finances.length; i++ ) {
+  console.log("Total Months: " + finances.length)
+// }
 
 // Not total amount of Profit/Losees
 var total = 0
 for (var i = 0; i < finances.length; i++ ) {
   total += finances[i][1];
 }
-console.log ("Total " + total)
+console.log ("Total: " + "$" + total)
 
 // Average changes in profit/loses
 for (var i = 1; i < finances.length; i++ ) {
@@ -109,7 +108,11 @@ var current = finances[i][1];
 var previous = finances[i-1][1];
 var changes = current - previous;
 }
-console.log("Average Change " + changes + i)
+console.log("Average Change: " + "$" + changes + i)
+
+var average = (changes/(finances.length - 1))
+console.log (average)
+
 
 // Greatest increase in profits
 var maxIncrease = 0;
@@ -122,3 +125,10 @@ console.log(maxIncrease);
 
 
 // Greatest decrease in losses
+var maxDecrease = 0;
+for (var i = 0; i < changes.length; i++) {
+  if (changes[i] > maxIncrease) {
+    maxDecrease = changes[i];
+  }
+}
+console.log(maxDecrease);
