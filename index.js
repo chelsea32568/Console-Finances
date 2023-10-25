@@ -102,3 +102,15 @@ for (var i = 0; i < finances.length; i++ ) {
   total += finances[i][1];
 }
 console.log ("Total " + total)
+
+// Average changes in profit/loses
+for (var i = 1; i < finances.length; i++ ) {
+var current = finances[i][1];
+var previous = finances[i-1][1];
+var changes = current - previous;
+}
+console.log("Average Change " + changes + i)
+
+// Greatest increase in profits
+
+// Greatest decrease in losses
