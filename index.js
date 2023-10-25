@@ -112,5 +112,13 @@ var changes = current - previous;
 console.log("Average Change " + changes + i)
 
 // Greatest increase in profits
+var maxIncrease = 0;
+for (var i = 0; i < changes.length; i++) {
+  if (changes[i] > maxIncrease) {
+    maxIncrease = changes[i];
+  }
+}
+console.log(maxIncrease);
+
 
 // Greatest decrease in losses
