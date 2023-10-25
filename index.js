@@ -90,10 +90,8 @@ var finances = [
 console.log ("Finance Analysis")
 
 // Counts Total Number of Months
+console.log("Total Months: " + finances.length)
 
-// for (var i = 0; i < finances.length; i++ ) {
-  console.log("Total Months: " + finances.length)
-// }
 
 // Not total amount of Profit/Losees
 var total = 0
