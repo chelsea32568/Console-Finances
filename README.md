@@ -2,45 +2,21 @@
 JavaScript Console Finances Report
 
 ## Description 
-This webpage contains information on a log of finances. Required information is stored within the console. The aim was to find the total number of months and 
-
-This webpage contains some of the most recent projects that I have been working on. The aim was to create a webpage using Bootstrap which shows my projects and allows users to view my projects. Throughout this project, I have developed my understanding of how Bootstrap can be used to create webpages and how design can be altered using CSS. Moving forward, I will link my projects to the page and make them accessible when users click on the relevant buttons This task was completed using VS Code. 
+This webpage contains information on a log of finances. Required information is stored within the console. The aim was to find the total number of months and net total amount of loses/profits from the data set which has been achieved. Further requirements included finding average changes in profits/loses, greatest increase in profit and greatest decrease in loses which has not yet been achieved. Through this project, I have developed my understanding of arrays, javaScript basics and variables. Moving forward, I will repair the errors for the last two parts of the task. 
 
 ## Installation
 
-To work on this code copy this SSH key: git@github.com:chelsea32568/Bootstrap-Portfolio.git and paste into your desired folder using Git Bash. Then use git pull to pull the file into your local repository. Make necessary changes and then add changes into the git repository by using git add -A, git commit -m "", git push. 
+To work on this code copy this SSH key: git@github.com:chelsea32568/Console-Finances.git and paste into your desired folder using Git Bash. Then use git pull to pull the file into your local repository. Make necessary changes and then add changes into the git repository by using git add -A, git commit -m "", git push. 
 
 ## Usage 
+If you open the webpage, inspect and find the console log you will see the following information:
 
-![Image of page](./assets/img/wholepage.png)
-
-If you click on the 'About Me', 'Projects', 'Skills' and 'Contact Me' links in the nav bar, my page will scroll down to the required area. 
-
-![Image of nav bar](./assets/img/navbar.JPG)
-
-Beneath that, you will find information about me. This section was created using Bootstrap jumbotron.
-
-![Image of about me section](./assets/img/jumbo.JPG)
-
-Visit the portfolio section and take a lot at some of the projects that I have created. This section was created using Bootstrap cards. 
-
-![Image of nav bar](./assets/img/cards.JPG)
-
-I have listed my skills below. This was created using a list.
-
-![Image of nav bar](./assets/img/skills.JPG)
-
-If you wish to contact me, please use the information at the bottom of the page. 
-
-![Image of nav bar](./assets/img/contacts.JPG)
-
+![Image of console log](./assets/img/consoleLog.JPG)
 
 ## Credits
 
-* [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [HTMl and CSS knowledge](https://www.freecodecamp.org/learn)
-* [Bootstrap](https://getbootstrap.com/)
-
+* Tyler - Ask BCS Learning Assistant 
+* [Javascript Arrays](https://www.w3schools.com/jsref/jsref_obj_typed_array.asp)
 
 ## License
 MIT License
